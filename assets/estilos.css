@@ -127,3 +127,30 @@ footer {
   transition: all 1.5s; }
   .seccionProd div img:hover {
     transform: scale(1.1); }
+
+@media screen and (max-width: 1000px) {
+  .flexRedes img {
+    height: 20%;
+    width: 20%; } }
+
+@media screen and (max-width: 770px) {
+  .flexRedes img {
+    height: 25%;
+    width: 25%; } }
+
+@media screen and (max-width: 690px) {
+  h2 {
+    font-size: 1.5rem; }
+  header div h1 {
+    font-size: 2rem; }
+  header div a img {
+    height: 50%;
+    width: 50%; }
+  .sectionQuienesSomos div p {
+    font-size: 1rem; }
+  .sectionQuienesSomos ul {
+    font-size: 1rem; } }
+
+@media screen and (max-width: 500px) {
+  header div a img {
+    margin: 10% 0 0 20%; } }
