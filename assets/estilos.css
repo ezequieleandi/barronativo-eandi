@@ -92,3 +92,20 @@ form {
     margin-left: 25%; }
     form .divBotones button {
       background-color: #fa9959; }
+
+.seccionEntrega div {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 2% 0 2% 30%;
+  font-style: italic; }
+
+footer {
+  background-color: #a8a75ca8; }
+  footer .divRedes {
+    margin-top: 2%; }
+    footer .divRedes .flexRedes {
+      margin-left: 25%; }
+      footer .divRedes .flexRedes img {
+        height: 15%;
+        width: 15%; }
