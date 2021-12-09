@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imgBarronativo2/logo-incom-faviconMod.jpg">
+    <title>BARRONATIVO</title>
+    <!--Googlefonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&family=Raleway:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header> <!--encabezado-->
+        <div> <!--imagen + titulo-->
+            <a href="./index.html"><img src="./imgBarronativo2/logo22.jpg" alt="logo barronativo"></a>
+            <h1>BARRONATIVO</h1>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navItem">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!--Lista desordenada para el menu-->
+              <div class="collapse navbar-collapse" id="navbarNavDropdown"> 
+                <ul class="navbar-nav"> 
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#entrega">Entrega</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#procesos">Procesos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <!--Lista desordenada para productos-->
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="./views/productos.html#maceta">Macetas</a></li>
+                      <li><a class="dropdown-item" href="./views/productos.html#mate">Mates</a></li>
+                      <li><a class="dropdown-item" href="./views/productos.html#taza">Tazas</a></li>
+                      <li><a class="dropdown-item" href="./views/productos.html#tetera">Teteras</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!--seccion de quienes somos-->
+    <section class="sectionQuienesSomos"> 
+        <h2>¿Quienes somos?</h2>
+        <div class="flexPresentacion">
+            <img src="./imgBarronativo2/naturaleza2.jpeg" alt="maceta">
+            <p>Hola! Somos Coty y Fede, expresandonos a través de la cerámica y alfarería,<br>con alegría de poder compartirles pedacitos de Barro Nativo.</p>
+        </div>
+        <h2>Sobre nuestros productos</h2>
+        <ul>
+            <li>100% artesanales, hechos con torno alfarero.</li>
+            <li>Todas las piezas son Auténticas, cada detalle, forma, tamaño y color son únicos para vos!</li>
+            <li>Piezas a pedido y por stock</li>
+            <li>Algunos esmaltes son aptos para microondas y horno (consultar por redes o wpp)</li>
+        </ul>
+    </section>
+
+    <!--seccion carrusel-->
+    <div id="carruselNativo" class="carousel slide carruselTamaño" data-bs-ride="carousel"> 
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carruselNativo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carruselNativo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carruselNativo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <!--imagenes carrusel-->
+      <div class="carousel-inner divImg"> 
+        <div class="carousel-item active carruselimg">
+          <img src="./imgBarronativo2/mate/mate1mod.jpg" class="d-block w-100 imgNatuCarru" alt="Mate">
+        </div>  
+        <div class="carousel-item">
+          <img src="./imgBarronativo2/macetas/maceta2mod.jpg" class="d-block w-100 imgNatuCarru" alt="Maceta">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgBarronativo2/mate/mate3mod.jpg" class="d-block w-100 imgNatuCarru" alt="Taza">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carruselNativo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carruselNativo" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+    <!--seccion de procesos en la ceramica-->
+    <section id="procesos" class="seccionProceso"> 
+        <h2>Procesos</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TI_NcXNqMHA" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </section>
+
+    <!--seccion de contacto-->
+    <section id="contacto">
+      <h2>contacto</h2>
+      <form>
+        <div class="row mb-3">
+          <label for="nombre" class="col-sm-2 col-form-label">Nombre y apellido</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="nombre">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="email" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-6">
+            <input type="email" class="form-control" id="email">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="telefono" class="col-sm-2 col-form-label">Telefono</label>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" id="telefono">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="ayuda" class="col-sm-2 col-form-label">En que te podemos ayudar?</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="ayuda">
+          </div>
+        </div>
+        <div class="divBotones">
+          <button type="submit" class="btn">Enviar</button>
+          <button type="reset" class="btn">Resetear</button>
+        </div>
+      </form>
+    </section>
+    
+    <!--seccion de entrega-->
+    <section id="entrega" class="seccionEntrega"> 
+        <h2>Entregas</h2>
+        <div>
+            <p>CORDOBA CAPITAL Y SIERRAS CHICAS</p>
+            <P>(Entregas a domicilio o coordinamos un punto)</P>
+        </div>
+    </section>
+
+    <!--pie de pagina-->
+    <footer> 
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h2>Formas de pago</h2>
+            <div class="divFormasPago">
+                <p>TRANSFERENCIA</p>
+                <P>MERCADO PAGO</P>
+                <P>EFECTIVO</P>
+            </div>
+          </div>
+        <!--iconos de las redes sociales. Luego hay que modificar-->
+          <div class="col-6 container divRedes">
+            <div class="row">
+              <h2 class="col-12">Redes sociales</h2>
+            </div>
+            <div class="row flexRedes">
+                <img class="col-4" src="./imgBarronativo2/imgInternet/email22.jpg" alt="email"> 
+                <img class="col-4" src="./imgBarronativo2/imgInternet/facebook22.jpg" alt="facebook">
+                <img class="col-4" src="./imgBarronativo2/imgInternet/instagram22.jpg" alt="instagram">
+                <img class="col-4" src="./imgBarronativo2/imgInternet/telefono22.jpg" alt="telefono">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+</body>
+</html>
