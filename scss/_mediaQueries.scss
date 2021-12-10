@@ -1,25 +1,77 @@
+@media screen and (max-width:1200px){
+    .imgNatuCarru{
+        height: 50vh;
+    }
+    
+    .carruselTamaño{
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width:1080px){
+    .imgNatuCarru{
+        height: 45vh;
+    }
+    
+    .carruselTamaño{
+        height: 45vh;
+    }
+}
+
 @media screen and (max-width:1000px){
-    .flexRedes img{
-        height: 20%;
-        width: 20%;
+    .imgNatuCarru{
+        height: 40vh;
+    }
+    
+    .carruselTamaño{
+        height: 40vh;
+    }
+    .seccionProd div{
+        img{
+            height: 300px;
+        }
     }
 }
 
-@media screen and (max-width:770px){
-    .flexRedes img{
-        height: 25%;
-        width: 25%;
+@media screen and (max-width:920px){
+    .imgNatuCarru{
+        height: 35vh;
+    }
+    
+    .carruselTamaño{
+        height: 35vh;
+    }
+    .flexSobreProd{
+        .infoProd{
+            ul{
+                font-size: 1rem;
+            }
+            h2{
+                margin-bottom: 0;
+            } 
+        }
     }
 }
 
+@media screen and (max-width:845px){
+    .titPagos{
+        font-size: 1.5rem;
+    }
+    .seccionProd div{
+        img{
+            height: 250px;
+        }
+    }
+}
 
 @media screen and (max-width:690px){
     h2{
-        font-size: 1.5rem;    
+        font-size: 1.2rem;    
     }
     header div{
         h1{
             font-size: 2rem;
+            margin-right: 15%;
         }
         a img{
             height: 50%;
@@ -27,13 +79,37 @@
         }
     } 
     .sectionQuienesSomos{
-        div{
-            p{
+        .flexPresentacion{
+            div p{
                 font-size: 1rem;
             }
         }
-        ul{
-            font-size: 1rem;
+    }
+    .flexSobreProd{
+        .infoProd{
+            ul{
+                font-size: 0.8rem;
+            }
+        }
+    }
+    .imgNatuCarru{
+        height: 25vh;
+    }
+    
+    .carruselTamaño{
+        height: 25vh;
+    }
+    footer{
+        p{
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media screen and (max-width:550px){
+    .seccionProd div{
+        img{
+            height: 200px;
         }
     }
 }
@@ -42,8 +118,16 @@
     header{
         div{
             a img{
-                margin: 10% 0 0 20%;
+                margin: 10% 0 0 6%;
             }
+        }
+    }
+}
+
+@media screen and (max-width:420px){
+    .seccionProd div{
+        img{
+            height: 150px;
         }
     }
 }
