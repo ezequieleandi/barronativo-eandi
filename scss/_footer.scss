@@ -1,13 +1,13 @@
 footer{
     background-color: #a8a75ca8;
-    .divRedes{
-        margin-top: 2%;
-        .flexRedes{
-            margin-left: 25%;
-            img{
-                height: 15%;
-                width: 15%;
-            }
-        }
+    .flexElementFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+}
+.iconosRedes{
+    height: 30px;
+    width: 30px;
 }

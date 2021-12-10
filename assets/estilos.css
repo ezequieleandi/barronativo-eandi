@@ -117,13 +117,15 @@ form {
 
 footer {
   background-color: #a8a75ca8; }
-  footer .divRedes {
-    margin-top: 2%; }
-    footer .divRedes .flexRedes {
-      margin-left: 25%; }
-      footer .divRedes .flexRedes img {
-        height: 15%;
-        width: 15%; }
+  footer .flexElementFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+.iconosRedes {
+  height: 30px;
+  width: 30px; }
 
 .seccionProd div p {
   text-align: center;
