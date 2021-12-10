@@ -14,7 +14,8 @@ body {
 h2 {
   font-size: 2rem;
   font-style: italic;
-  text-align: center; }
+  text-align: center;
+  font-weight: bold; }
 
 header {
   background-color: #fcaa62ea; }
@@ -50,25 +51,43 @@ header {
 .sectionQuienesSomos {
   width: 100%;
   height: 100%; }
-  .sectionQuienesSomos div {
+  .sectionQuienesSomos .flexPresentacion {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 20px 0 20px 0; }
-    .sectionQuienesSomos div img {
-      height: 25%;
-      width: 25%;
+    .sectionQuienesSomos .flexPresentacion img {
+      height: 100%;
+      width: 50%; }
+    .sectionQuienesSomos .flexPresentacion div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .sectionQuienesSomos .flexPresentacion div p {
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.5rem;
+        margin-top: 5%; }
+
+.flexSobreProd {
+  background-color: #FAE7D2;
+  display: flex; }
+  .flexSobreProd .infoProd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .flexSobreProd .infoProd h2 {
+      margin-bottom: 5%;
       margin-left: 10%; }
-    .sectionQuienesSomos div p {
-      text-align: center;
+    .flexSobreProd .infoProd ul {
       font-family: 'Raleway', sans-serif;
-      font-size: 1.5rem;
-      margin-bottom: 2%; }
-  .sectionQuienesSomos ul {
-    margin-left: 15%;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.5rem;
-    margin-bottom: 2%; }
+      font-size: 1.2rem;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      text-align: center;
+      list-style-type: none; }
 
 .imgNatuCarru {
   height: 50%;
@@ -78,10 +97,6 @@ header {
   width: 50%;
   margin: 0 auto;
   height: 100%; }
-
-.seccionProceso h2 {
-  margin-top: 5%;
-  margin-bottom: 2%; }
 
 form {
   margin: 2% 0 2% 20%;

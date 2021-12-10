@@ -65,58 +65,56 @@
     
     <!--seccion de quienes somos-->
     <section class="sectionQuienesSomos"> 
-        <h2>¿Quienes somos?</h2>
         <div class="flexPresentacion">
             <img src="./imgBarronativo2/naturaleza2.jpeg" alt="maceta">
-            <p>Hola! Somos Coty y Fede, expresandonos a través de la cerámica y alfarería,<br>con alegría de poder compartirles pedacitos de Barro Nativo.</p>
+            <div>
+              <h2>¿Quienes somos?</h2>
+              <p>Hola! Somos Coty y Fede, expresandonos a través de la cerámica y alfarería, con alegría de poder compartirles pedacitos de Barro Nativo.</p>
+            </div>
         </div>
+    </section>
+
+    <!--seccion sobre productos-->
+    <section class="flexSobreProd">
+      <div class="infoProd">
         <h2>Sobre nuestros productos</h2>
         <ul>
-            <li>100% artesanales, hechos con torno alfarero.</li>
-            <li>Todas las piezas son Auténticas, cada detalle, forma, tamaño y color son únicos para vos!</li>
-            <li>Piezas a pedido y por stock</li>
-            <li>Algunos esmaltes son aptos para microondas y horno (consultar por redes o wpp)</li>
+          <li>100% artesanales, hecho con torno alfarero.</li>
+          <li>Todas las piezas son auténticas. Cada detalle, forma, tamaño y color son únicos para vos!</li>
+          <li>Piezas a pedido y por stock</li>
+          <li>Algunos esmaltes son aptos para microondas y horno (consultar por redes o wpp)</li>
         </ul>
+      </div>
+      <!--carrusel-->
+      <div id="carruselNativo" class="carousel slide carruselTamaño" data-bs-ride="carousel"> 
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carruselNativo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carruselNativo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carruselNativo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <!--imagenes carrusel-->
+        <div class="carousel-inner divImg"> 
+          <div class="carousel-item active carruselimg">
+            <img src="./imgBarronativo2/mate/Ezemate2mod.jpg" class="d-block w-100 imgNatuCarru" alt="Mate">
+          </div>  
+          <div class="carousel-item">
+            <img src="./imgBarronativo2/macetas/Ezemaceta2mod.jpg" class="d-block w-100 imgNatuCarru" alt="Maceta">
+          </div>
+          <div class="carousel-item">
+            <img src="./imgBarronativo2/mate/Ezemate3mod.jpg" class="d-block w-100 imgNatuCarru" alt="Taza">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carruselNativo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carruselNativo" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
-
-    <!--seccion carrusel-->
-    <div id="carruselNativo" class="carousel slide carruselTamaño" data-bs-ride="carousel"> 
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carruselNativo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carruselNativo" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carruselNativo" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <!--imagenes carrusel-->
-      <div class="carousel-inner divImg"> 
-        <div class="carousel-item active carruselimg">
-          <img src="./imgBarronativo2/mate/mate1mod.jpg" class="d-block w-100 imgNatuCarru" alt="Mate">
-        </div>  
-        <div class="carousel-item">
-          <img src="./imgBarronativo2/macetas/maceta2mod.jpg" class="d-block w-100 imgNatuCarru" alt="Maceta">
-        </div>
-        <div class="carousel-item">
-          <img src="./imgBarronativo2/mate/mate3mod.jpg" class="d-block w-100 imgNatuCarru" alt="Taza">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carruselNativo" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carruselNativo" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
     
-    <!--seccion de procesos en la ceramica-->
-    <section id="procesos" class="seccionProceso"> 
-        <h2>Procesos</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/TI_NcXNqMHA" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </section>
-
     <!--seccion de contacto-->
     <section id="contacto">
       <h2>contacto</h2>
