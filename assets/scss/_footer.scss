@@ -1,16 +1,13 @@
 footer{
     background-color: #a8a75ca8;
     .flexElementFooter{
-        display: flex;
+        @include flexCompleto (flex, center, center);
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     p{
         color: white;
     }
 }
 .iconosRedes{
-    height: 30px;
-    width: 30px;
+    @include tamaño (30px, 30px);
 }

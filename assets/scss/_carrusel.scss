@@ -1,10 +1,8 @@
 .imgNatuCarru{
-    height: 60vh;
-    width: 10%;
+    @include tamaño (60vh, 10%);
 }
 
 .carruselTamaño{
-    width: 50%;
+    @include tamaño (60vh, 50%);
     margin: 0 auto;
-    height: 60vh;
 }

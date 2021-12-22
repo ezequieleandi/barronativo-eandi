@@ -44,7 +44,7 @@
     .flexSobreProd{
         .infoProd{
             ul{
-                font-size: 1rem;
+                font-size: $font-16;
             }
             h2{
                 margin-bottom: 0;
@@ -55,7 +55,7 @@
 
 @media screen and (max-width:845px){
     .titPagos{
-        font-size: 1.5rem;
+        font-size: $font-24;
     }
     .seccionProd div{
         img{
@@ -66,29 +66,28 @@
 
 @media screen and (max-width:690px){
     h2{
-        font-size: 1.2rem;    
+        font-size: $font-20;    
     }
     header div{
         h1{
-            font-size: 2rem;
+            font-size: $font-32;
             margin-right: 15%;
         }
         a img{
-            height: 50%;
-            width: 50%;
+            @include tamaño (50%, 50%);
         }
     } 
     .sectionQuienesSomos{
         .flexPresentacion{
             div p{
-                font-size: 1rem;
+                font-size: $font-16;
             }
         }
     }
     .flexSobreProd{
         .infoProd{
             ul{
-                font-size: 0.8rem;
+                font-size: $font-16;
             }
         }
     }
@@ -101,7 +100,7 @@
     }
     footer{
         p{
-            font-size: 0.8rem;
+            font-size: $font-16;
         }
     }
 }
