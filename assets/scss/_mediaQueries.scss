@@ -54,7 +54,7 @@
 }
 
 @media screen and (max-width:845px){
-    .titPagos{
+    .titFooter{
         font-size: $font-24;
     }
     .seccionProd div{
@@ -79,12 +79,18 @@
     } 
     .sectionQuienesSomos{
         .flexPresentacion{
+            flex-direction: column;
+            margin: 0 0 20px 0;
+            img{
+                @include tamaño (100%, 100%);
+            }
             div p{
                 font-size: $font-16;
             }
         }
     }
     .flexSobreProd{
+        flex-direction: column;
         .infoProd{
             ul{
                 font-size: $font-16;
@@ -98,32 +104,50 @@
     .carruselTamaño{
         height: 25vh;
     }
+    .formBarra{
+        width: 120%;
+    }
     footer{
+        .titFooter{
+            font-size: $font-20;
+        }
         p{
-            font-size: $font-16;
+            font-size: 0.8rem;
+        }
+        .redesIconos{
+            margin-top: 19%;
+        }
+        .iconosRedes{
+            @include tamaño (20px, 20px);
         }
     }
 }
 
 @media screen and (max-width:550px){
+    header div{
+        a img{
+            margin: 10% 0 0 15%;
+        }
+    }
     .seccionProd div{
         img{
             height: 200px;
         }
     }
-}
-
-@media screen and (max-width:500px){
-    header{
-        div{
-            a img{
-                margin: 10% 0 0 6%;
-            }
-        }
+    .formBarra{
+        width: 80%;
     }
 }
 
 @media screen and (max-width:420px){
+    header div{
+        a img{
+            margin: 10% 0 0 15%;
+        }
+        h1{
+            text-align: center;
+        }
+    }
     .seccionProd div{
         img{
             height: 150px;

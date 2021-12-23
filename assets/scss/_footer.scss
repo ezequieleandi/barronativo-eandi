@@ -1,13 +1,22 @@
 footer{
     background-color: #a8a75ca8;
     .flexElementFooter{
-        @include flexCompleto (flex, center, center);
+        display: flex;
+        align-items: center;
         flex-direction: column;
     }
     p{
         color: white;
     }
+    .entregaP{
+        text-align: center;
+        margin-top: 4%;
+    }
+}
+.redesIconos{
+    margin-top: 8%;
 }
 .iconosRedes{
     @include tamaño (30px, 30px);
+    padding-left: 5%;
 }

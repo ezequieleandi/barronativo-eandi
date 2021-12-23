@@ -115,14 +115,20 @@ footer {
   footer .flexElementFooter {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column; }
   footer p {
     color: white; }
+  footer .entregaP {
+    text-align: center;
+    margin-top: 4%; }
+
+.redesIconos {
+  margin-top: 8%; }
 
 .iconosRedes {
   height: 30px;
-  width: 30px; }
+  width: 30px;
+  padding-left: 5%; }
 
 .seccionProd div p {
   font-family: "Raleway" sans-serif;
@@ -173,7 +179,7 @@ footer {
     margin-bottom: 0; } }
 
 @media screen and (max-width: 845px) {
-  .titPagos {
+  .titFooter {
     font-size: 1.5rem; }
   .seccionProd div img {
     height: 250px; } }
@@ -187,25 +193,46 @@ footer {
   header div a img {
     height: 50%;
     width: 50%; }
-  .sectionQuienesSomos .flexPresentacion div p {
-    font-size: 1rem; }
-  .flexSobreProd .infoProd ul, .flexSobreProd .sectionQuienesSomos .flexPresentacion div ul, .sectionQuienesSomos .flexPresentacion .flexSobreProd div ul {
-    font-size: 1rem; }
+  .sectionQuienesSomos .flexPresentacion {
+    flex-direction: column;
+    margin: 0 0 20px 0; }
+    .sectionQuienesSomos .flexPresentacion img {
+      height: 100%;
+      width: 100%; }
+    .sectionQuienesSomos .flexPresentacion div p {
+      font-size: 1rem; }
+  .flexSobreProd {
+    flex-direction: column; }
+    .flexSobreProd .infoProd ul, .flexSobreProd .sectionQuienesSomos .flexPresentacion div ul, .sectionQuienesSomos .flexPresentacion .flexSobreProd div ul {
+      font-size: 1rem; }
   .imgNatuCarru {
     height: 25vh; }
   .carruselTamaño {
     height: 25vh; }
+  .formBarra {
+    width: 120%; }
+  footer .titFooter {
+    font-size: 1.25rem; }
   footer p {
-    font-size: 1rem; } }
+    font-size: 0.8rem; }
+  footer .redesIconos {
+    margin-top: 19%; }
+  footer .iconosRedes {
+    height: 20px;
+    width: 20px; } }
 
 @media screen and (max-width: 550px) {
-  .seccionProd div img {
-    height: 200px; } }
-
-@media screen and (max-width: 500px) {
   header div a img {
-    margin: 10% 0 0 6%; } }
+    margin: 10% 0 0 15%; }
+  .seccionProd div img {
+    height: 200px; }
+  .formBarra {
+    width: 80%; } }
 
 @media screen and (max-width: 420px) {
+  header div a img {
+    margin: 10% 0 0 15%; }
+  header div h1 {
+    text-align: center; }
   .seccionProd div img {
     height: 150px; } }
