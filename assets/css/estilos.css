@@ -129,8 +129,8 @@ footer {
   width: 100%; }
 
 .iconosRedes {
-  height: 50%;
-  width: 20%;
+  height: 40px;
+  width: 45px;
   padding-left: 5%; }
 
 .seccionProd div p {
@@ -185,7 +185,10 @@ footer {
   .titFooter {
     font-size: 1.5rem; }
   .seccionProd div img {
-    height: 250px; } }
+    height: 250px; }
+  .iconosRedes {
+    height: 30px;
+    width: 30px; } }
 
 @media screen and (max-width: 690px) {
   h2 {
@@ -227,7 +230,10 @@ footer {
   .seccionProd div img {
     height: 200px; }
   .formBarra {
-    width: 80%; } }
+    width: 80%; }
+  .iconosRedes {
+    height: 25px;
+    width: 25px; } }
 
 @media screen and (max-width: 420px) {
   header div a img {
@@ -235,4 +241,9 @@ footer {
   header div h1 {
     text-align: center; }
   .seccionProd div img {
-    height: 150px; } }
+    height: 150px; }
+  form .titContactos {
+    margin-top: 25%; }
+  .iconosRedes {
+    height: 20px;
+    width: 20px; } }

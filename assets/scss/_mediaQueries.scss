@@ -62,6 +62,9 @@
             height: 250px;
         }
     }
+    .iconosRedes{
+        @include tamaño (30px, 30px);
+    }
 }
 
 @media screen and (max-width:690px){
@@ -134,6 +137,9 @@
     .formBarra{
         width: 80%;
     }
+    .iconosRedes{
+        @include tamaño (25px, 25px);
+    }
 }
 
 @media screen and (max-width:420px){
@@ -149,5 +155,13 @@
         img{
             height: 150px;
         }
+    }
+    form{
+        .titContactos{
+            margin-top: 25%;
+        }
+    }
+    .iconosRedes{
+        @include tamaño (20px, 20px);
     }
 }
