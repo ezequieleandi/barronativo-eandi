@@ -14,9 +14,11 @@ footer{
     }
 }
 .redesIconos{
+    @include flex (flex, center);
     margin-top: 8%;
+    width: 100%;
 }
 .iconosRedes{
-    @include tamaño (30px, 30px);
+    @include tamaño (50%, 20%);
     padding-left: 5%;
 }
