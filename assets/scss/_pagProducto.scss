@@ -1,18 +1,72 @@
-.seccionProd div{
-    p{
-        @include font ('Raleway' sans-serif, $font-24, italic, 900);
+.seccionComienzo{
+    @include tamaño (100%, 100%);
+    .divUno{
+        display: flex;
+        .divPUno{
+            @include font ('Raleway' sans-serif, 1.3rem, italic, 500);
+            display: flex;
+            width: 60%;
+            text-align: center;
+            margin-top: 5%;
+            line-height: 1.8;
+        }
+        .divPDos{
+            @extend .divPUno;
+            margin-left: 40%;
+        }
+        div{
+            img{
+                @include tamaño (460px, 40vw);
+            }
+        } 
+    } 
+}
+
+
+.sectionProducto{
+    background-color: #FED2AA;
+    .divParrafos{
         text-align: center;
-        background-color: #C36A2D;
-        margin-bottom: 10px;
-        display: inline-block;
-    }
-    img{
-        height: 350px;
-        margin-bottom: 2%;
-        margin-top: 2%;
-        transition: all 1.5s;
-        &:hover{
-            transform: scale(1.1);
+        h3{
+            font-size: $font-32;
+            font-family: 'Raleway', sans-serif;
+            font-style: italic;
         }
     }
-} 
+    article .divProductos{
+        @include flex (flex, space-evenly);
+        flex-wrap: wrap;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        .cardProductos{
+            background-color: white;
+            @include tamaño (350px, 270px);
+            color: black;
+            text-align: center;
+            border-radius: 7%;
+            overflow: hidden;
+            transition: all 1.5s;
+            margin-top: 2%;
+            &:hover{
+                transform: scale(1.05);
+            }
+            img{
+                @include tamaño (50%, 100%);
+            }
+            .divPCard{
+                text-align: start;
+                font-size: 0.8rem;
+                margin-left: 5%;
+            }
+            .divContCard{
+                font-size: 0.8rem;
+            }
+        }
+        #cardCuencos{
+            height: 400px;
+        }
+    }
+    h2{
+        background-color: #C36A2D;
+    }
+}

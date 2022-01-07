@@ -26,11 +26,6 @@
     .carruselTamaño{
         height: 40vh;
     }
-    .seccionProd div{
-        img{
-            height: 300px;
-        }
-    }
 }
 
 @media screen and (max-width:920px){
@@ -56,11 +51,6 @@
 @media screen and (max-width:845px){
     .titFooter{
         font-size: $font-24;
-    }
-    .seccionProd div{
-        img{
-            height: 250px;
-        }
     }
     .iconosRedes{
         @include tamaño (30px, 30px);
@@ -129,11 +119,6 @@
             margin: 10% 0 0 15%;
         }
     }
-    .seccionProd div{
-        img{
-            height: 200px;
-        }
-    }
     .formBarra{
         width: 80%;
     }
@@ -151,14 +136,9 @@
             text-align: center;
         }
     }
-    .seccionProd div{
-        img{
-            height: 150px;
-        }
-    }
     form{
         .titContactos{
-            margin-top: 25%;
+            margin-bottom: 20%
         }
     }
     .iconosRedes{

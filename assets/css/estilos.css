@@ -98,8 +98,7 @@ form {
   font-size: 1rem;
   font-family: 'Raleway', sans-serif; }
   form .divBotones {
-    padding-right: 2%;
-    margin-left: 25%; }
+    margin-left: 30%; }
     form .divBotones button {
       background-color: #e29450ea; }
 
@@ -133,23 +132,66 @@ footer {
   width: 45px;
   padding-left: 5%; }
 
-.seccionProd div p {
-  font-family: "Raleway" sans-serif;
-  font-size: 1.5rem;
-  font-style: italic;
-  font-weight: 900;
-  text-align: center;
-  background-color: #C36A2D;
-  margin-bottom: 10px;
-  display: inline-block; }
+.seccionComienzo {
+  height: 100%;
+  width: 100%; }
+  .seccionComienzo .divUno {
+    display: flex; }
+    .seccionComienzo .divUno .divPUno, .seccionComienzo .divUno .divPDos {
+      font-family: "Raleway" sans-serif;
+      font-size: 1.3rem;
+      font-style: italic;
+      font-weight: 500;
+      display: flex;
+      width: 60%;
+      text-align: center;
+      margin-top: 5%;
+      line-height: 1.8; }
+    .seccionComienzo .divUno .divPDos {
+      margin-left: 40%; }
+    .seccionComienzo .divUno div img {
+      height: 460px;
+      width: 40vw; }
 
-.seccionProd div img {
-  height: 350px;
-  margin-bottom: 2%;
-  margin-top: 2%;
-  transition: all 1.5s; }
-  .seccionProd div img:hover {
-    transform: scale(1.1); }
+.sectionProducto {
+  background-color: #FED2AA; }
+  .sectionProducto .divParrafos {
+    text-align: center; }
+    .sectionProducto .divParrafos h3 {
+      font-size: 2rem;
+      font-family: 'Raleway', sans-serif;
+      font-style: italic; }
+  .sectionProducto article .divProductos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-bottom: 2%; }
+    .sectionProducto article .divProductos .cardProductos {
+      background-color: white;
+      height: 350px;
+      width: 270px;
+      color: black;
+      text-align: center;
+      border-radius: 7%;
+      overflow: hidden;
+      transition: all 1.5s;
+      margin-top: 2%; }
+      .sectionProducto article .divProductos .cardProductos:hover {
+        transform: scale(1.05); }
+      .sectionProducto article .divProductos .cardProductos img {
+        height: 50%;
+        width: 100%; }
+      .sectionProducto article .divProductos .cardProductos .divPCard {
+        text-align: start;
+        font-size: 0.8rem;
+        margin-left: 5%; }
+      .sectionProducto article .divProductos .cardProductos .divContCard {
+        font-size: 0.8rem; }
+    .sectionProducto article .divProductos #cardCuencos {
+      height: 400px; }
+  .sectionProducto h2 {
+    background-color: #C36A2D; }
 
 @media screen and (max-width: 1200px) {
   .imgNatuCarru {
@@ -167,9 +209,7 @@ footer {
   .imgNatuCarru {
     height: 40vh; }
   .carruselTamaño {
-    height: 40vh; }
-  .seccionProd div img {
-    height: 300px; } }
+    height: 40vh; } }
 
 @media screen and (max-width: 920px) {
   .imgNatuCarru {
@@ -184,8 +224,6 @@ footer {
 @media screen and (max-width: 845px) {
   .titFooter {
     font-size: 1.5rem; }
-  .seccionProd div img {
-    height: 250px; }
   .iconosRedes {
     height: 30px;
     width: 30px; } }
@@ -227,8 +265,6 @@ footer {
 @media screen and (max-width: 550px) {
   header div a img {
     margin: 10% 0 0 15%; }
-  .seccionProd div img {
-    height: 200px; }
   .formBarra {
     width: 80%; }
   .iconosRedes {
@@ -240,10 +276,8 @@ footer {
     margin: 10% 0 0 15%; }
   header div h1 {
     text-align: center; }
-  .seccionProd div img {
-    height: 150px; }
   form .titContactos {
-    margin-top: 25%; }
+    margin-bottom: 20%; }
   .iconosRedes {
     height: 20px;
     width: 20px; } }
