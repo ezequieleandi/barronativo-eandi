@@ -1,70 +1,98 @@
 @media screen and (max-width:1200px){
+    .carruselTamaño{
+        height: 50vh;
+    }
     .imgNatuCarru{
         height: 50vh;
     }
     
-    .carruselTamaño{
-        height: 50vh;
+    .seccionComienzo{
+        .divUno{
+            flex-direction: column-reverse;
+            .divPUno{
+                margin: 2% 0 0 20%;
+            }
+            .divPDos{
+                margin-left: 20%;
+            }
+            div{
+                img{
+                    width: 100%;
+                }
+            }
+        }
     }
 }
 
 @media screen and (max-width:1080px){
-    .imgNatuCarru{
+    .carruselTamaño{
         height: 45vh;
     }
-    
-    .carruselTamaño{
+    .imgNatuCarru{
         height: 45vh;
     }
 }
 
 @media screen and (max-width:1000px){
+    .carruselTamaño{
+        height: 40vh;
+    }
     .imgNatuCarru{
         height: 40vh;
     }
-    
-    .carruselTamaño{
-        height: 40vh;
+    .seccionComienzo .divUno{
+        .divPUno{
+            font-size: 1.1rem;
+        }
+        .divPDos{
+            font-size: 1.1rem;
+        }
     }
 }
 
 @media screen and (max-width:920px){
-    .imgNatuCarru{
-        height: 35vh;
-    }
-    
     .carruselTamaño{
         height: 35vh;
     }
+    .imgNatuCarru{
+        height: 35vh;
+    }
+
     .flexSobreProd{
         .infoProd{
-            ul{
-                font-size: $font-16;
-            }
             h2{
                 margin-bottom: 0;
             } 
+            ul{
+                font-size: $font-16;
+            }
         }
     }
 }
 
 @media screen and (max-width:845px){
-    .titFooter{
-        font-size: $font-24;
-    }
-    .iconosRedes{
-        @include tamaño (30px, 30px);
+    footer{
+        .flexElementFooter{
+            .titFooter{
+                font-size: $font-24;
+            }
+            .redesIconos{
+                .iconosRedes{
+                    @include tamaño (30px, 30px);
+                }
+            }
+        }
     }
 }
 
 @media screen and (max-width:690px){
     h2{
-        font-size: $font-20;    
+        font-size: $font-24;    
     }
     header div{
         h1{
             font-size: $font-32;
-            margin-right: 15%;
+            margin: 4% 15% 0 0;
         }
         a img{
             @include tamaño (50%, 50%);
@@ -87,19 +115,25 @@
         .infoProd{
             ul{
                 font-size: $font-16;
+                margin-right: 5%;
             }
         }
     }
-    .imgNatuCarru{
-        height: 25vh;
+    .carruselTamaño{
+        width: 65%;
     }
     
-    .carruselTamaño{
-        height: 25vh;
+    .sectionContacto{
+        form{
+            .formBarra{
+                width: 120%;
+            }
+            .divBotones{
+                margin-left: 18%;
+            }
+        }
     }
-    .formBarra{
-        width: 120%;
-    }
+
     footer{
         .titFooter{
             font-size: $font-20;
@@ -111,37 +145,130 @@
             margin-top: 19%;
         }
     }
+    .sectionProducto{
+        .divParrafos{
+            h3{
+                font-size: $font-24;
+            }
+        }
+    }
 }
 
 @media screen and (max-width:550px){
     header div{
         a img{
-            margin: 10% 0 0 15%;
+            margin-left: 22%;
+        }
+        h1{
+            margin-top: 0;
+            margin-left: 15%;
         }
     }
-    .formBarra{
-        width: 80%;
+    
+    .sectionContacto{
+        form{
+            .formBarra{
+                width: 80%;
+            }
+            .divBotones{
+                margin-left: 0%;
+            }
+        }
     }
-    .iconosRedes{
-        @include tamaño (25px, 25px);
+    footer{
+        .flexElementFooter{
+            margin-top: 5%;
+            .entregaP{
+                margin-top: 0%;
+            }
+            .redesIconos{
+                margin-top: 3%;
+                .iconosRedes{
+                    @include tamaño (25px, 25px);
+                }
+            }
+        }
+    }  
+    .seccionComienzo{
+        .divUno{
+            div{
+                img{
+                    height: 400px;
+                }
+            }
+        }
     }
 }
 
 @media screen and (max-width:420px){
-    header div{
-        a img{
-            margin: 10% 0 0 15%;
+    .flexSobreProd{
+        height: 85vh;
+        .infoProd{
+            margin-top: 20px;
         }
-        h1{
-            text-align: center;
+        .carruselTamaño{
+            @include tamaño (40vh, 80vw);
+            .imgNatuCarru{
+                height: 80%;
+            }
         }
+    }
+    .sectionContacto{
+        margin: 6% 0 10% 0;
     }
     form{
         .titContactos{
             margin-bottom: 20%
         }
+        .formBarra{
+            width: 90%;
+        }
     }
+
     .iconosRedes{
         @include tamaño (20px, 20px);
+    }
+    
+    .seccionComienzo{
+        .divUno{
+            .divPUno{
+                font-size: $font-16;
+                width: 90%;
+                margin: 5% 0 0 3%;
+            }
+            .divPDos{
+                font-size: $font-16;
+                width: 90%;
+                margin-left: 3%;
+            }
+            div{
+                img{
+                    height: 330px;
+                }
+            }
+        }
+    }
+    .sectionProducto{
+        h2{
+            padding: 2% 0 2% 0;
+        }
+        .divParrafos{
+            h3{
+                font-size: $font-20;
+            }
+        }
+        article .divProductos{
+            .cardProductos{
+                margin-bottom: 3%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:380px){
+    .flexSobreProd{
+        .carruselTamaño{
+            @include tamaño (40vh, 80vw);
+        }
     }
 }

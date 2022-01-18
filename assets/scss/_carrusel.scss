@@ -1,8 +1,7 @@
+.carruselTamaño{
+    @include tamaño (60vh, 70%);
+    margin: 0 auto;
+}
 .imgNatuCarru{
     @include tamaño (60vh, 10%);
-}
-
-.carruselTamaño{
-    @include tamaño (60vh, 50%);
-    margin: 0 auto;
 }

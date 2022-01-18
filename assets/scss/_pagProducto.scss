@@ -1,5 +1,6 @@
 .seccionComienzo{
     @include tamaño (100%, 100%);
+    margin: 2% 0 5% 0;
     .divUno{
         display: flex;
         .divPUno{
@@ -25,9 +26,15 @@
 
 .sectionProducto{
     background-color: #FED2AA;
+    margin-bottom: 8%;
+    h2{
+        background-color: #c3692dc5;
+        padding: 1% 0 1% 0;
+    }
     .divParrafos{
         text-align: center;
         h3{
+            padding-top: 2%;
             font-size: $font-32;
             font-family: 'Raleway', sans-serif;
             font-style: italic;
@@ -53,20 +60,12 @@
             img{
                 @include tamaño (50%, 100%);
             }
-            .divPCard{
-                text-align: start;
-                font-size: 0.8rem;
-                margin-left: 5%;
-            }
             .divContCard{
                 font-size: 0.8rem;
             }
         }
         #cardCuencos{
-            height: 400px;
+            height: 425px;
         }
-    }
-    h2{
-        background-color: #C36A2D;
     }
 }

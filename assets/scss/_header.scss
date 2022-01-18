@@ -1,5 +1,6 @@
 header{
     background-color: #fcaa62ea;
+    width: 100%;
     div{
         @include flexCompleto (flex, center, center);
         flex-wrap: wrap;
@@ -23,9 +24,6 @@ header{
                 margin-right: 1%;
                 list-style-type: none;
                 padding: 0 20px;
-                ul{
-                    background-color: $marronOscuro;
-                }
             }
         }
     }
