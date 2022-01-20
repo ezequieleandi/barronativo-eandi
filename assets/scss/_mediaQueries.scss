@@ -55,7 +55,7 @@
         height: 35vh;
     }
     .imgNatuCarru{
-        height: 35vh;
+       height: 35vh;
     }
 
     .flexSobreProd{
@@ -202,15 +202,12 @@
 
 @media screen and (max-width:420px){
     .flexSobreProd{
-        height: 85vh;
+        padding-bottom: 8%;
         .infoProd{
             margin-top: 20px;
         }
         .carruselTamaño{
-            @include tamaño (40vh, 80vw);
-            .imgNatuCarru{
-                height: 80%;
-            }
+            @include tamaño (50%, 80vw);
         }
     }
     .sectionContacto{
@@ -261,14 +258,6 @@
             .cardProductos{
                 margin-bottom: 3%;
             }
-        }
-    }
-}
-
-@media screen and (max-width:380px){
-    .flexSobreProd{
-        .carruselTamaño{
-            @include tamaño (40vh, 80vw);
         }
     }
 }

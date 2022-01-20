@@ -305,14 +305,12 @@ footer {
 
 @media screen and (max-width: 420px) {
   .flexSobreProd {
-    height: 85vh; }
+    padding-bottom: 8%; }
     .flexSobreProd .infoProd, .flexSobreProd .sectionQuienesSomos .flexPresentacion div, .sectionQuienesSomos .flexPresentacion .flexSobreProd div {
       margin-top: 20px; }
     .flexSobreProd .carruselTamaño {
-      height: 40vh;
+      height: 50%;
       width: 80vw; }
-      .flexSobreProd .carruselTamaño .imgNatuCarru {
-        height: 80%; }
   .sectionContacto {
     margin: 6% 0 10% 0; }
   form .titContactos {
@@ -338,8 +336,3 @@ footer {
     font-size: 1.25rem; }
   .sectionProducto article .divProductos .cardProductos {
     margin-bottom: 3%; } }
-
-@media screen and (max-width: 380px) {
-  .flexSobreProd .carruselTamaño {
-    height: 40vh;
-    width: 80vw; } }
